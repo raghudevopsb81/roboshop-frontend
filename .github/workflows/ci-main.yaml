@@ -10,4 +10,5 @@ jobs:
     uses: raghudevopsb81/github-reusable-actions/.github/workflows/ci-main.yaml@main
     with:
       componentName: frontend
+    secrets:
       NR_API_KEY: ${{ secrets.NR_API_KEY }}
