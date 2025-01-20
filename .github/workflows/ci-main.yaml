@@ -12,3 +12,4 @@ jobs:
       componentName: frontend
     secrets:
       NR_API_KEY: ${{ secrets.NR_API_KEY }}
+      VAULT_TOKEN: ${{ secrets.VAULT_TOKEN }}
