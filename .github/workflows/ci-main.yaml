@@ -10,6 +10,7 @@ jobs:
     uses: raghudevopsb81/github-reusable-actions/.github/workflows/ci-main.yaml@main
     with:
       componentName: frontend
+      SONAR_CLASS_PATH: " "
     secrets:
       NR_API_KEY: ${{ secrets.NR_API_KEY }}
       VAULT_TOKEN: ${{ secrets.VAULT_TOKEN }}
